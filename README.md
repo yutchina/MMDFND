@@ -6,7 +6,7 @@
 4. **Data Storage**:
     - Place the processed Weibo data in the `./data` directory.
     - Place the Weibo21 data in the `./Weibo_21` directory.
-5. **Data preparation**: Use the scripts in the `./datapre` directory to prepare the data to save time during the data loading phase.
+5. **Data preparation**: Use `clip_data_pre` and `weibo21_clip_data_pre` to preprocess the data of Weibo and Weibo21, respectively, in order to save time during the data loading phase.
 ### Pretrained Models
 1. **Roberta**: You can download the pretrained Roberta model from [Roberta](https://drive.google.com/drive/folders/1y2k22iMG1i1f302NLf-bj7UEe9zwTwLR?usp=sharing) and move all files into the `./pretrained_model` directory.
 2. **MAE**: Download the pretrained MAE model from ["Masked Autoencoders： A PyTorch Implementation"](https://arxiv.org/abs/2111.06377) and move all files into the root directory.
