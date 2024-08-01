@@ -610,7 +610,6 @@ class MultiDomainPLEFENDModel(torch.nn.Module):
 
         image_label_pred_list = torch.cat((image_label_pred_list[0], image_label_pred_list[1], image_label_pred_list[2], image_label_pred_list[3],
                                      image_label_pred_list[4], image_label_pred_list[5], image_label_pred_list[6], image_label_pred_list[7], image_label_pred_list[8]))
-        #aaaaaaaa
         # fusion
         fusion_only_output = []
         fusion_label_pred = []
@@ -632,13 +631,11 @@ class MultiDomainPLEFENDModel(torch.nn.Module):
             (fusion_label_pred_list[0], fusion_label_pred_list[1], fusion_label_pred_list[2], fusion_label_pred_list[3],
              fusion_label_pred_list[4], fusion_label_pred_list[5], fusion_label_pred_list[6],
              fusion_label_pred_list[7],fusion_label_pred_list[8]))
-        #aaaaaaaa
         # pivot fusion
         text_gate_share_expert_value = text_gate_share_expert_value[0]
         image_gate_share_expert_value = image_gate_share_expert_value[0]
         fusion_gate_share_expert_value = fusion_gate_share_expert_value0[0]
         cross_knowledge = self.fusion_img_text(image_gate_share_expert_value, text_gate_share_expert_value, fusion_gate_share_expert_value,self.mlp_img,self.mlp_text,self.pivot_mlp_fusion,self.transformers,self.mlp_star_f1,self.mlp_star_f2)
-        #aaaaaaaaa
         domain_special_list = []
         for i in range(self.domain_num):
             text_spacial_knowledge = text_gate_spacial_expert_value[i]
