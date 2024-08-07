@@ -89,7 +89,7 @@ class Run():
         train_loader, val_loader, test_loader = self.get_dataloader(self.dataset)
 
 
-        if self.model_name == 'mmdfnd':
+        if self.model_name == 'MMDFND':
             trainer = MMDFNDTrainer(emb_dim=self.emb_dim, mlp_dims=self.mlp_dims, bert=self.bert,
                                     use_cuda=self.use_cuda, lr=self.lr, train_loader=train_loader, dropout=self.dropout,
                                     weight_decay=self.weight_decay, val_loader=val_loader, test_loader=test_loader,
