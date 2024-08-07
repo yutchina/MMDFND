@@ -6,7 +6,8 @@
 import os
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_name', default='domain')
+parser.add_argument('--model_name', default='MMDFND')
+parser.add_argument('--dataset', default='weibo21')#weibo21 %% weibo
 #parser.add_argument('--model_name', default='domain_ple6')
 parser.add_argument('--epoch', type=int, default=50)
 parser.add_argument('--max_len', type=int, default=197)
@@ -26,7 +27,6 @@ parser.add_argument('--lr', type=float, default=0.0001)
 parser.add_argument('--emb_type', default='bert')
 parser.add_argument('--w2v_vocab_file', default='./pretrained_model/w2v/Tencent_AILab_Chinese_w2v_model.kv')
 parser.add_argument('--save_param_dir', default= './param_model')
-
 args = parser.parse_args()
 os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 
@@ -78,7 +78,8 @@ config = {
         'epoch': args.epoch,
         'model_name': args.model_name,
         'seed': args.seed,
-        'save_param_dir': args.save_param_dir
+        'save_param_dir': args.save_param_dir,
+        'dataset':args.dataset
         }
 
 
