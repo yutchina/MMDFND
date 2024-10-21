@@ -1,7 +1,7 @@
 # MMDFND
 ### Data Preparation
 1. **Data Splitting**: In the experiments, we maintain the same data splitting scheme as the benchmarks.
-2. **Weibo21 Dataset**: For the Weibo21 dataset, we follow the work from [(Ying et al.， 2023)](https://github.com/yingqichao/fnd-bootstrap).
+2. **Weibo21 Dataset**: For the Weibo21 dataset, we follow the work from [(Ying et al.， 2023)](https://github.com/yingqichao/fnd-bootstrap).You should send an email to Dr. [Qiong Nan](mailto:nanqiong19z@ict.ac.cn)
 3. **Weibo Dataset**: For the Weibo dataset, we adhere to the work from [(Wang et al.， 2022)](https://github.com/yaqingwang/EANN-KDD18). 
 4. **Data Storage**:
     - Place the processed Weibo data in the `./data` directory.
