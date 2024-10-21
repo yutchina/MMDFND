@@ -1,4 +1,5 @@
-# MMDFND
+# MMDFND: Multi-modal Multi-Domain Fake News Detection
+This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake News Detection](https://openreview.net/pdf?id=sdF3MuyHtz) which has been accepted by ACM MM24.
 ### Data Preparation
 1. **Data Splitting**: In the experiments, we maintain the same data splitting scheme as the benchmarks.
 2. **Weibo21 Dataset**: For the Weibo21 dataset, we follow the work from [(Ying et al.， 2023)](https://github.com/yingqichao/fnd-bootstrap). You should send an email to Dr. [Qiong Nan](mailto:nanqiong19z@ict.ac.cn) to get the complete multimodal multi-domain dataset Weibo21.
@@ -13,3 +14,18 @@
 
 ### Training
 - **Start Training**: After processing the data, train the model by running `python main.py`.
+
+### Reference
+"""
+Tong Y, Lu W, Zhao Z, et al. MMDFND: Multi-modal Multi-Domain Fake News Detection[C]//ACM Multimedia 2024. 2024.
+"""
+
+or in bibtex style:
+"""
+@inproceedings{tong2024mmdfnd,
+  title={MMDFND: Multi-modal Multi-Domain Fake News Detection},
+  author={Tong, Yu and Lu, Weihai and Zhao, Zhe and Lai, Song and Shi, Tong},
+  booktitle={ACM Multimedia 2024},
+  year={2024}
+}
+"""
