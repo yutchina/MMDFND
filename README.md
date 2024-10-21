@@ -16,16 +16,16 @@ This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake Ne
 - **Start Training**: After processing the data, train the model by running `python main.py`.
 
 ### Reference
-"""
+```
 Tong Y, Lu W, Zhao Z, et al. MMDFND: Multi-modal Multi-Domain Fake News Detection[C]//ACM Multimedia 2024. 2024.
-"""
+```
 
 or in bibtex style:
-"""
+```
 @inproceedings{tong2024mmdfnd,
   title={MMDFND: Multi-modal Multi-Domain Fake News Detection},
   author={Tong, Yu and Lu, Weihai and Zhao, Zhe and Lai, Song and Shi, Tong},
   booktitle={ACM Multimedia 2024},
   year={2024}
 }
-"""
+```
