@@ -6,6 +6,7 @@ This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake Ne
 3. **Weibo Dataset**: For the Weibo dataset, we adhere to the work from [(Wang et al.， 2022)](https://github.com/yaqingwang/EANN-KDD18). You can download the final processed data from the link below. If you use this data, you won't need to go through the data preparation step.
 
 Link: https://pan.baidu.com/s/1TGc-8RUt6BIHO1rjnzuPxQ code: qwer
+
 5. **Data Storage**:
     - Place the processed Weibo data in the `./data` directory.
     - Place the Weibo21 data in the `./Weibo_21` directory.
