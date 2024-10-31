@@ -17,7 +17,7 @@ This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake Ne
 
 ### Reference
 ```
-Tong Y, Lu W, Zhao Z, et al. MMDFND: Multi-modal Multi-Domain Fake News Detection[C]//ACM Multimedia 2024. 2024.
+Tong Y, Lu W, Zhao Z, et al. MMDFND: Multi-modal Multi-Domain Fake News Detection[C]//Proceedings of the 32nd ACM International Conference on Multimedia. 2024: 1178-1186.
 ```
 
 or in bibtex style:
@@ -25,7 +25,8 @@ or in bibtex style:
 @inproceedings{tong2024mmdfnd,
   title={MMDFND: Multi-modal Multi-Domain Fake News Detection},
   author={Tong, Yu and Lu, Weihai and Zhao, Zhe and Lai, Song and Shi, Tong},
-  booktitle={ACM Multimedia 2024},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={1178--1186},
   year={2024}
 }
 ```
