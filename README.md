@@ -10,7 +10,7 @@ This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake Ne
 5. **Data preparation**: Use `clip_data_pre`, `data_pre`, `weibo21_data_pre`and `weibo21_clip_data_pre` to preprocess the data of Weibo and Weibo21, respectively, in order to save time during the data loading phase.
 ### Pretrained Models
 1. **Roberta**: You can download the pretrained Roberta model from [Roberta](https://drive.google.com/drive/folders/1y2k22iMG1i1f302NLf-bj7UEe9zwTwLR?usp=sharing) and move all files into the `./pretrained_model` directory.
-2. **MAE**: Download the pretrained MAE model from ["Masked Autoencoders： A PyTorch Implementation"](https://arxiv.org/abs/2111.06377) and move all files into the root directory.
+2. **MAE**: Download the pretrained MAE model from ["Masked Autoencoders： A PyTorch Implementation"](https://github.com/facebookresearch/mae) and move all files into the root directory.
 
 ### Training
 - **Start Training**: After processing the data, train the model by running `python main.py`.
