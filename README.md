@@ -3,11 +3,11 @@ This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake Ne
 ### Directory Structure
 ```
 ├── CNN_architectures/
-├── data/
 ├── model/
 ├── pretrained_model/
 ├── util/
 ├── utils/
+├── data/
 ├── Weibo_21/
 ├── clip_data_pre.py
 ├── data_pre.py
