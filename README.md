@@ -2,22 +2,40 @@
 This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3681317) which has been accepted by ACM MM24. If you like this repo, don't forget to give a star, and if possible cite this paper. Many thanks!
 ### Directory Structure
 ```
-├── CNN_architectures/
-├── model/
-├── pretrained_model/
-├── util/
-├── utils/
-├── data/
-├── Weibo_21/
-├── clip_data_pre.py
-├── data_pre.py
-├── main.py
-├── models_mae.py
-├── run.py
-├── weibo21_clip_data_pre.py
-├── weibo21_data_pre.py
-├── clip_cn_vit-b-16.pt
-└── mae_pretrain_vit_base.pth
+|–– CNN_architectures/
+|–– model/
+|–– pretrained_model/
+|–– util/
+|–– utils/
+|–– data/
+|   |––train_clip_loader.pkl
+|   |––train_loader.pkl
+|   |––train_origin.csv
+|   |––test_clip_loader.pkl
+|   |––test_loader.pkl
+|   |––test_origin.csv
+|   |––val_clip_loader.pkl
+|   |––val_loader.pkl
+|   |––val_origin.csv
+|–– Weibo_21/
+|   |––train_clip_loader.pkl
+|   |––train_loader.pkl
+|   |––train_datasets.xlsx
+|   |––test_clip_loader.pkl
+|   |––test_loader.pkl
+|   |––test_datasets.xlsx
+|   |––val_clip_loader.pkl
+|   |––val_loader.pkl
+|   |––val_datasets.xlsx
+|–– clip_data_pre.py
+|–– data_pre.py
+|–– main.py
+|–– models_mae.py
+|–– run.py
+|–– weibo21_clip_data_pre.py
+|–– weibo21_data_pre.py
+|–– clip_cn_vit-b-16.pt
+|–– mae_pretrain_vit_base.pth
 ```
 ### Data Preparation
 1. **Data Splitting**: In the experiments, we maintain the same data splitting scheme as the benchmarks.
