@@ -1,5 +1,22 @@
 # MMDFND: Multi-modal Multi-Domain Fake News Detection
 This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3681317) which has been accepted by ACM MM24. If you like this repo, don't forget to give a star, and if possible cite this paper. Many thanks!
+### Directory Structure
+├── CNN_architectures  
+├── data  
+├── model   
+├── pretrained_model  
+├── util  
+├── utils  
+├── Weibo_21  
+├── clip_data_pre.py  
+├── data_pre.py
+├── main.py
+├── models_mae.py
+├── run.py
+├── weibo21_clip_data_pre.py  
+├── weibo21_data_pre.py
+├── clip_cn_vit-b-16.pt  
+└── mae_pretrain_vit_base.pth
 ### Data Preparation
 1. **Data Splitting**: In the experiments, we maintain the same data splitting scheme as the benchmarks.
 2. **Weibo21 Dataset**: For the Weibo21 dataset, we follow the work from [(Ying et al.， 2023)](https://github.com/yingqichao/fnd-bootstrap). You should send an email to Dr. [Qiong Nan](mailto:nanqiong19z@ict.ac.cn) to get the complete multimodal multi-domain dataset Weibo21.
@@ -11,7 +28,7 @@ This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake Ne
 ### Pretrained Models
 1. **Roberta**: You can download the pretrained Roberta model from [Roberta](https://drive.google.com/drive/folders/1y2k22iMG1i1f302NLf-bj7UEe9zwTwLR?usp=sharing) and move all files into the `./pretrained_model` directory.
 2. **MAE**: Download the pretrained MAE model from ["Masked Autoencoders： A PyTorch Implementation"](https://github.com/facebookresearch/mae) and move all files into the root directory.
-
+3. **CLIP**: Download the pretrained CLIP model from ["Chinese-CLIP"](https://github.com/OFA-Sys/Chinese-CLIP) and move all files into the root directory.
 ### Training
 - **Start Training**: After processing the data, train the model by running `python main.py`.
 
