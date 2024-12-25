@@ -9,14 +9,14 @@ This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake Ne
 ├── util/
 ├── utils/
 ├── Weibo_21/
-├── clip_data_pre.py/
-├── data_pre.py/
-├── main.py/
-├── models_mae.py/
-├── run.py/
-├── weibo21_clip_data_pre.py/
-├── weibo21_data_pre.py/
-├── clip_cn_vit-b-16.pt/
+├── clip_data_pre.py
+├── data_pre.py
+├── main.py
+├── models_mae.py
+├── run.py
+├── weibo21_clip_data_pre.py
+├── weibo21_data_pre.py
+├── clip_cn_vit-b-16.pt
 └── mae_pretrain_vit_base.pth
 ```
 ### Data Preparation
