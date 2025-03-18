@@ -75,8 +75,8 @@ class bert_data():
         #ordered_image = torch.tensor(list(ordered_image))
         ordered_image = torch.tensor([item.cpu().detach().numpy() for item in ordered_image]).squeeze(1)
         print(ordered_image.size())
-        #with open('Weibo_21/train_loader.pkl', 'wb') as file:
-         #   pickle.dump(ordered_image, file)
+        with open('Weibo_21/train_loader.pkl', 'wb') as file:
+            pickle.dump(ordered_image, file)
         return 1
     def load_data_test(self,path,shuffle,text_only = False):
         self.data = pd.read_excel(path)
@@ -147,8 +147,8 @@ category_dict = {
 loader = bert_data(max_len=170, batch_size=64, vocab_file='./pretrained_model/chinese_roberta_wwm_base_ext_pytorch/vocab.txt',
                    category_dict=category_dict, num_workers=1)
 
-#val_loader = loader.load_data_val("Weibo_21/val_datasets.xlsx", True)#torch.Size([615, 3, 224, 224])
+val_loader = loader.load_data_val("Weibo_21/val_datasets.xlsx", True)#torch.Size([615, 3, 224, 224])
 
-#test_loader = loader.load_data_test("Weibo_21/test_datasets.xlsx", True)#torch.Size([615, 3, 224, 224])
+test_loader = loader.load_data_test("Weibo_21/test_datasets.xlsx", True)#torch.Size([615, 3, 224, 224])
 train_loader = loader.load_data_train("Weibo_21/train_datasets.xlsx", True)#torch.Size([4926, 3, 224, 224])
 
