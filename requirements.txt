@@ -1,0 +1,7 @@
+cn_clip
+transformers
+pandas
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
