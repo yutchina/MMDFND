@@ -1,5 +1,7 @@
 # MMDFND: Multi-modal Multi-Domain Fake News Detection
 This is an official implementation for [MMDFND: Multi-modal Multi-Domain Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3681317) which has been accepted by ACM MM24. If you like this repo, don't forget to give a star, and if possible cite this paper. Many thanks!
+### Requirements
+You can run `pip install -r requirements.txt` to deploy the environment.
 ### Directory Structure
 ```
 |–– CNN_architectures/
