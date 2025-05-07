@@ -46,6 +46,7 @@ You can run `pip install -r requirements.txt` to deploy the environment.
 ### Reference Reading More
 If you’re interested in learning more about multimodal multidomain fake news detection, here are some of our relevant papers:
 [Dec'24][DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32036)
+
 [Jul'24][MMDFND: Multi-modal Multi-Domain Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3681317)
 ### Reference
 ```
