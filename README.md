@@ -43,7 +43,10 @@ You can run `pip install -r requirements.txt` to deploy the environment.
 3. **CLIP**: Download the pretrained CLIP model from ["Chinese-CLIP"](https://github.com/OFA-Sys/Chinese-CLIP) and move all files into the root directory.
 ### Training
 - **Start Training**: After processing the data, train the model by running `python main.py`.
-
+### Reference Reading More
+If you’re interested in learning more about multimodal multidomain fake news detection, here are some of our relevant papers:
+[Dec'24][DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32036)
+[Jul'24][MMDFND: Multi-modal Multi-Domain Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3664647.3681317)
 ### Reference
 ```
 Tong Y, Lu W, Zhao Z, et al. MMDFND: Multi-modal Multi-Domain Fake News Detection[C]//Proceedings of the 32nd ACM International Conference on Multimedia. 2024: 1178-1186.
