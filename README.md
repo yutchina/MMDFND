@@ -48,7 +48,9 @@ You can run `pip install -r requirements.txt` to deploy the environment.
 ```
 Tong Y, Lu W, Zhao Z, et al. MMDFND: Multi-modal Multi-Domain Fake News Detection[C]//Proceedings of the 32nd ACM International Conference on Multimedia. 2024: 1178-1186.
 ```
-
+```
+Lu W, Tong Y, Ye Z. DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2025, 39(1): 559-567.
+```
 or in bibtex style:
 ```
 @inproceedings{tong2024mmdfnd,
@@ -57,5 +59,17 @@ or in bibtex style:
   booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
   pages={1178--1186},
   year={2024}
+}
+```
+```
+@inproceedings{lu2025dammfnd,
+  title={DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection},
+  author={Lu, Weihai and Tong, Yu and Zhiqiu, Ye},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={1},
+  pages={559--567},
+  year={2025},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/32036}
 }
 ```
