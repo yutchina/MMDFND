@@ -44,7 +44,7 @@ You can run `pip install -r requirements.txt` to deploy the environment.
 ### Training
 - **Start Training**: After processing the data, train the model by running `python main.py`.
 ### Reading More
-If you’re interested in learning more about multimodal multidomain fake news detection, here are some of our relevant papers:
+If you’re interested in learning more about multimodal multimodal fake news detection, here are some of our relevant papers:
 
 **[Dec'24] [DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32036)**        
 ### Reference
