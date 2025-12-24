@@ -46,13 +46,17 @@ You can run `pip install -r requirements.txt` to deploy the environment.
 ### Reading More
 If you’re interested in learning more about multi-modal multi-domain fake news detection, here are some of our relevant papers:
 
-**[Dec'24] [DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32036)**        
+**[Dec'24] [DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection](https://ojs.aaai.org/index.php/AAAI/article/view/32036)**     
+**[Oct'25] [DAPT: Domain-Aware Prompt-Tuning for Multimodal Fake News Detection](https://dl.acm.org/doi/abs/10.1145/3746027.3755192)**
 ### Reference
 ```
 Tong Y, Lu W, Zhao Z, et al. MMDFND: Multi-modal Multi-Domain Fake News Detection[C]//Proceedings of the 32nd ACM International Conference on Multimedia. 2024: 1178-1186.
 ```
 ```
 Lu W, Tong Y, Ye Z. DAMMFND: Domain-Aware Multimodal Multi-view Fake News Detection[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2025, 39(1): 559-567.
+```
+```
+Tong Y, Lu W, Cui x, et al. DAPT: Domain-Aware Prompt-Tuning for Multimodal Fake News Detection[C]//Proceedings of the 33rd ACM International Conference on Multimedia. 2025: 7902--7911.
 ```
 or in bibtex style:
 ```
@@ -74,5 +78,14 @@ or in bibtex style:
   pages={559--567},
   year={2025},
   url={https://ojs.aaai.org/index.php/AAAI/article/view/32036}
+}
+```
+```
+@inproceedings{tong2025dapt,
+  title={DAPT: Domain-Aware Prompt-Tuning for Multimodal Fake News Detection},
+  author={Tong, Yu and Lu, Weihai and Cui, Xiaoxi and Mao, Yifan and Zhao, Zhejun},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={7902--7911},
+  year={2025}
 }
 ```
